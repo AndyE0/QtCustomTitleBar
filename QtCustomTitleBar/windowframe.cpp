@@ -181,7 +181,7 @@ void WindowFrame::mouseMoveEvent(QMouseEvent *event) {
         }
 #else
         if (mPosition.x() != 0 || mPosition.y() != 0) {
-            move(event->globalPosition().x() - mPosition.x(), event->globalPosition().x() - mPosition.y());
+            move(event->globalPosition().x() - mPosition.x(), event->globalPosition().y() - mPosition.y());
         }
 #endif
     }
