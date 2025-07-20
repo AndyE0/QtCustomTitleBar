@@ -37,13 +37,13 @@ const QString headerMaximizeStyle = QStringLiteral(
     "}"
 );
 
-const QString appIcon           = ":/recources/icons/icon.png";
-const QString closeIcon         = ":/recources/icons/close_light.png";
-const QString collapseHideIcon  = ":/recources/icons/collapse_hide_light.png";
-const QString collapseShowIcon  = ":/recources/icons/collapse_show_light.png";
-const QString maximizeIcon      = ":/recources/icons/maximize_light.png";
-const QString minimizeIcon      = ":/recources/icons/minimize_light.png";
-const QString defaultSizeIcon   = ":/recources/icons/default_size_light.png";
+const QString appIcon           = ":/resources/icons/icon.png";
+const QString closeIcon         = ":/resources/icons/close_light.png";
+const QString collapseHideIcon  = ":/resources/icons/collapse_hide_light.png";
+const QString collapseShowIcon  = ":/resources/icons/collapse_show_light.png";
+const QString maximizeIcon      = ":/resources/icons/maximize_light.png";
+const QString minimizeIcon      = ":/resources/icons/minimize_light.png";
+const QString defaultSizeIcon   = ":/resources/icons/default_size_light.png";
 
 /// @brief Constructor for the WindowFrame class.
 /// @param parent The parent widget.

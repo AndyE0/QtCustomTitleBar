@@ -7,7 +7,7 @@
 #include <QFile>
 
 const QString style = "Fusion";
-const QString appstylePath = ":/recources/style/appstyles.qss";
+const QString appstylePath = ":/resources/style/appstyles.qss";
 
 int main(int argc, char *argv[]){
     QApplication a(argc, argv);
