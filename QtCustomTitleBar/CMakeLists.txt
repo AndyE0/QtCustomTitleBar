@@ -45,7 +45,7 @@ set(resources_resource_files
 
 qt_add_resources(QtCustomTitleBar "resources"
     PREFIX
-        "/recources"
+        "/resources"
     BASE
         "resources"
     FILES
